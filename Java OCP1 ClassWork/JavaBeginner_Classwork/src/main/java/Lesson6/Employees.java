@@ -10,12 +10,25 @@ package Lesson6;
  * @author Heino
  */
 public class Employees {
-    public String name;
-    public String surname;
-    public int age;
-    public String contactNum;
-    public int identityNum;
+    private String name;
+    private String surname;
+    private int age;
+    private String contactNum;
+    private int identityNum;
 
+    public Employees(String name, String surname, int age, String contactNum, int identityNum) {
+        this.name = name;
+        this.surname = surname;
+        this.age = age;
+        this.contactNum = contactNum;
+        this.identityNum = identityNum;
+    }
+
+    public void displaydetails(){
+        System.out.println("Name: " + getName() + "\nSurname: " + getSurname() + "\nAge: " + getAge()
+                + "\nContact Number: " + getContactNum() + "\nID Number: " + getIdentityNum());
+    }
+    
     public String getName() {
         return name;
     }
