@@ -2,11 +2,16 @@ Lesson11\argsArray.class
 Lesson2\HelloWorld.class
 Lesson11\twoDimensionalArray.class
 Lesson6\Employees.class
+Lesson12\Clothing.class
 Lesson8\Shirt.class
+Lesson12\Shirt.class
 Lesson9\Shirt.class
 Lesson8\methodCall.class
+Lesson12\Trouser.class
 Lesson9\ShirtTest.class
+Lesson12\Material.class
 Lesson5\StringArray.class
+Lesson12\Main.class
 Lesson7\greetingTest.class
 Lesson7\incrementDecrement.class
 Lesson4\Main.class
@@ -15,3 +20,4 @@ Lesson11\LocalDate.class
 Lesson8\ShoppingCart.class
 Lesson6\Main.class
 Lesson8\Item.class
+Lesson12\Sock.class
