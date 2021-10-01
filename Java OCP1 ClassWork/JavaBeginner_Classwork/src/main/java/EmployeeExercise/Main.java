@@ -10,18 +10,11 @@ package EmployeeExercise;
  * @author Heino
  */
 public class Main {
-    public static void main(String[] args) {
-        Employees emp1 = new Employees ("Heino", "du Plessis", 'M', 26, 950301);
-        Employees emp2 = new Employees ("Fabio", "Pito", 'M', 20, 945367);
-        Employees emp3 = new Employees ("Conrad", "Smith", 'M', 38, 932134);
-        Employees emp4 = new Employees ("John", "Wick", 'M', 55, 765432);
-        
-        emp1.display();
-        System.out.println("-------------------------------------");
-        emp2.display();
-        System.out.println("-------------------------------------");
-        emp3.display();
-        System.out.println("-------------------------------------");
-        emp4.display();
+        public static void main(String[] args) {
+        HR emp01 = new HR("heino", "du Plessis", 'M', 26, 950301);
+        HR emp02 = new HR("Fabio", "pita", 'M', 20, 970701);
+        emp01.display();
+        System.out.println("..........\n");
+        emp02.display();
     }
 }
