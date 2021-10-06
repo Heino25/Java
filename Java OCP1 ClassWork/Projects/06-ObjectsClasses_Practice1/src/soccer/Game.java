@@ -5,21 +5,25 @@
  */
 package soccer;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import utility.GameUtils;
 
 /**
  *
- * @author Heino
+ * @author Administrator
  */
 public class Game {
     
     private Team homeTeam;
     private Team awayTeam;
     private Goal[] goals;
+    private LocalDateTime theDateTime;
     
-    public Game(Team homeTeam, Team awayTeam) {
+    public Game(Team homeTeam, Team awayTeam, LocalDateTime theDateTime) {
         this.homeTeam = homeTeam;
         this.awayTeam = awayTeam;
+        this.theDateTime = theDateTime;
     }
     
     public void playGame(int maxGoals) {       
@@ -39,18 +43,18 @@ public class Game {
         int awayTeamGoals = 0;
         StringBuilder returnString = new StringBuilder();
         
-        returnString.append(homeTeam.getTeamName() + " vs. " +
-        awayTeam.getTeamName() + "\n");
+        returnString.append(this.getHomeTeam().getTeamName() + " vs. " +
+        this.getAwayTeam().getTeamName() + "\n" + 
+               "Date: " + this.getTheDateTime().format(DateTimeFormatter.ISO_LOCAL_DATE) + "\n");
          
         for (Goal currGoal: this.getGoals()) {
             
             if (currGoal.getTheTeam()== homeTeam) {
                 homeTeamGoals++;
-//                theTeams[0].incGoalsTotal(1);
-                
+                homeTeam.incGoalsTotal(1);
             } else {
                 awayTeamGoals++;
-//                theTeams[1].incGoalsTotal(1)
+                awayTeam.incGoalsTotal(1);
             }
             
             returnString.append("Goal scored after "
@@ -62,14 +66,14 @@ public class Game {
         
         if (homeTeamGoals == awayTeamGoals) {
             returnString.append("It's a draw!");
-            homeTeam.incPointsTotal(1);
-            awayTeam.incPointsTotal(1);
+            this.homeTeam.incPointsTotal(1);
+            this.awayTeam.incPointsTotal(1);
         } else if (homeTeamGoals > awayTeamGoals) {
             returnString.append(homeTeam.getTeamName() + " win");
-            homeTeam.incPointsTotal(2);
+            this.homeTeam.incPointsTotal(1);
         } else {
             returnString.append(awayTeam.getTeamName() + " win");
-            awayTeam.incPointsTotal(2);
+            this.awayTeam.incPointsTotal(1);
         }
         returnString.append(" (" + homeTeamGoals + " - " + awayTeamGoals + ") \n");
         
@@ -116,6 +120,34 @@ public class Game {
      */
     public void setGoals(Goal[] goals) {
         this.goals = goals;
+    }
+
+    /**
+     * @return the localDateTime
+     */
+    public LocalDateTime getLocalDateTime() {
+        return getTheDateTime();
+    }
+
+    /**
+     * @param theDateTime the localDateTime to set
+     */
+    public void setLocalDateTime(LocalDateTime theDateTime) {
+        this.setTheDateTime(theDateTime);
+    }
+
+    /**
+     * @return the theDateTime
+     */
+    public LocalDateTime getTheDateTime() {
+        return theDateTime;
+    }
+
+    /**
+     * @param theDateTime the theDateTime to set
+     */
+    public void setTheDateTime(LocalDateTime theDateTime) {
+        this.theDateTime = theDateTime;
     }
       
 }

@@ -7,7 +7,7 @@ package soccer;
 
 /**
  *
- * @author Heino
+ * @author Administrator
  */
 public class Team {
     
@@ -16,12 +16,12 @@ public class Team {
     private int pointsTotal;
     private int goalsTotal;
     
+    public void incGoalsTotal(int goals){
+        this.setGoalsTotal(this.getGoalsTotal() + goals);
+    }
+
     public void incPointsTotal(int points){
         this.pointsTotal += points;
-    }
-    
-    public void incGoalsTotal(int goals){
-        this.goalsTotal = this.goalsTotal + goals;
     }
     
     public Team(String teamName) {
