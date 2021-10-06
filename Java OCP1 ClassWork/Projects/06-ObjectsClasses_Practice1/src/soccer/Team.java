@@ -10,6 +10,7 @@ package soccer;
  * @author Heino
  */
 public class Team {
+
     private String teamName;
     private Player[] playerArray;
 
@@ -40,5 +41,17 @@ public class Team {
     public void setPlayerArray(Player[] playerArray) {
         this.playerArray = playerArray;
     }
-    
+
+    public Team(String teamName) {
+        this.teamName = teamName;
+    }
+
+    public Team(String teamName, Player[] player) {
+        this(teamName);
+        this.playerArray = player;
+    }
+
+    Team() {
+
+    }
 }

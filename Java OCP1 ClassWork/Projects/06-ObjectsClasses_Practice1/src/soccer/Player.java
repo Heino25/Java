@@ -11,6 +11,8 @@ package soccer;
  */
 public class Player {
 
+    
+
     /**
      * @return the playerName
      */
@@ -25,4 +27,12 @@ public class Player {
         this.playerName = playerName;
     }
     private String playerName;
+    
+    public Player(String playerName) {
+        this.playerName = playerName;
+    }
+    
+    public Player() { 
+    
+    }
 }

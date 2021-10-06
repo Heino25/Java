@@ -78,5 +78,10 @@ public class Game {
     public void setGoals(Goal[] goals) {
         this.goals = goals;
     }
+
+    public Game(Team homeTeam, Team awayTeam) {
+        this.homeTeam = homeTeam;
+        this.awayTeam = awayTeam;
+    }
       
 }
