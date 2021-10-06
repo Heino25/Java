@@ -7,9 +7,13 @@ package soccer;
 
 /**
  *
- * @author Heino
+ * @author Administrator
  */
 public class Goal {
+    
+    private Team theTeam;
+    private Player thePlayer;
+    private double theTime;
 
     /**
      * @return the theTeam
@@ -52,7 +56,5 @@ public class Goal {
     public void setTheTime(double theTime) {
         this.theTime = theTime;
     }
-    private Team theTeam;
-    private Player thePlayer;
-    private double theTime;
+    
 }

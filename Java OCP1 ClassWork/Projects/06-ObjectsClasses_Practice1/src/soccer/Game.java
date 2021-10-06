@@ -17,23 +17,62 @@ public class Game {
     private Team awayTeam;
     private Goal[] goals;
     
-    public void playGame() {
-        /* Practice 8-2, Step 1e. Add code to initialize the array currGame.goals to a random size */
-        int numberOfGoals = (int)(Math.random() * 7);
+    public Game(Team homeTeam, Team awayTeam) {
+        this.homeTeam = homeTeam;
+        this.awayTeam = awayTeam;
+    }
+    
+    public void playGame(int maxGoals) {       
+        int numberOfGoals = (int)(Math.random() * maxGoals + 1);
         Goal[] theGoals = new Goal[numberOfGoals];
         this.setGoals(theGoals);
         GameUtils.addGameGoals(this);        
     }
     
+    public void playGame() {
+        playGame(6);
+    }
+    
     public String getDescription() {
+                       
+        int homeTeamGoals = 0;
+        int awayTeamGoals = 0;
         StringBuilder returnString = new StringBuilder();
+        
+        returnString.append(homeTeam.getTeamName() + " vs. " +
+        awayTeam.getTeamName() + "\n");
+         
         for (Goal currGoal: this.getGoals()) {
+            
+            if (currGoal.getTheTeam()== homeTeam) {
+                homeTeamGoals++;
+//                theTeams[0].incGoalsTotal(1);
+                
+            } else {
+                awayTeamGoals++;
+//                theTeams[1].incGoalsTotal(1)
+            }
+            
             returnString.append("Goal scored after "
             + currGoal.getTheTime() + " mins by "
             + currGoal.getThePlayer().getPlayerName() + " of "
             + currGoal.getTheTeam().getTeamName() +
               "\n");
         }
+        
+        if (homeTeamGoals == awayTeamGoals) {
+            returnString.append("It's a draw!");
+            homeTeam.incPointsTotal(1);
+            awayTeam.incPointsTotal(1);
+        } else if (homeTeamGoals > awayTeamGoals) {
+            returnString.append(homeTeam.getTeamName() + " win");
+            homeTeam.incPointsTotal(2);
+        } else {
+            returnString.append(awayTeam.getTeamName() + " win");
+            awayTeam.incPointsTotal(2);
+        }
+        returnString.append(" (" + homeTeamGoals + " - " + awayTeamGoals + ") \n");
+        
         return returnString.toString();
     }
 
@@ -77,11 +116,6 @@ public class Game {
      */
     public void setGoals(Goal[] goals) {
         this.goals = goals;
-    }
-
-    public Game(Team homeTeam, Team awayTeam) {
-        this.homeTeam = homeTeam;
-        this.awayTeam = awayTeam;
     }
       
 }

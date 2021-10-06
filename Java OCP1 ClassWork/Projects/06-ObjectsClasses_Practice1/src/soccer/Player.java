@@ -7,11 +7,17 @@ package soccer;
 
 /**
  *
- * @author Heino
+ * @author Administrator
  */
 public class Player {
-
     
+    private String playerName;
+    
+    public Player(String playerName) {
+        this.playerName = playerName;
+    }
+    
+    public Player() {}
 
     /**
      * @return the playerName
@@ -26,13 +32,5 @@ public class Player {
     public void setPlayerName(String playerName) {
         this.playerName = playerName;
     }
-    private String playerName;
     
-    public Player(String playerName) {
-        this.playerName = playerName;
-    }
-    
-    public Player() { 
-    
-    }
 }

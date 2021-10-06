@@ -5,6 +5,7 @@
  */
 package soccer;
 
+
 /**
  *
  * @author Heino
@@ -21,10 +22,13 @@ public class League {
         Team[] theTeams = theLeague.createTeams();
         Game[] theGames = theLeague.createGames(theTeams);
 
-        for (Game currGame: theGames){        
-        currGame.playGame();        
-        System.out.println(currGame.getDescription());
+        for (Game currGame: theGames){
+            currGame.playGame();
+            System.out.println(currGame.getDescription());
         }
+        
+        theLeague.showBestTeam(theTeams);
+
     }
 
     public Team[] createTeams() {
@@ -35,7 +39,6 @@ public class League {
         Player[] thePlayers = {player1, player2, player3};
 
         Team team1 = new Team("The Greens", thePlayers);
-        
 
         // Create team2
         Team team2 = new Team();
@@ -56,6 +59,32 @@ public class League {
         Game theGame4 = new Game(theTeams[1], theTeams[0]);
         Game[] theGames = {theGame, theGame2, theGame3, theGame4};
         return theGames;
+    }
+    
+     public void showBestTeam(Team[] theTeams) {
+        Team currBestTeam = theTeams[0];  
+        System.out.println("\nTeam Points");       
+           
+        for (Team currTeam: theTeams){
+            if (currTeam.getPointsTotal() >
+                currBestTeam.getPointsTotal()) {
+                currBestTeam = currTeam;
+            }
+            else if (currTeam.getPointsTotal() ==
+                    currBestTeam.getPointsTotal()){
+                    if (currTeam.getGoalsTotal() >
+                            currBestTeam.getGoalsTotal()){
+                            currBestTeam = currTeam;
+                    }
+            }
+            System.out.println(currTeam.getTeamName() + " : " + 
+                    currTeam.getPointsTotal() + ":" + currTeam.getGoalsTotal());
+
+            /* Practice 10-2. Remove ternary statement above then add a replacement if statement here */
+        }
+        
+        System.out.println("Winner of the League is " + currBestTeam.getTeamName());
+        
     }
 
 }
