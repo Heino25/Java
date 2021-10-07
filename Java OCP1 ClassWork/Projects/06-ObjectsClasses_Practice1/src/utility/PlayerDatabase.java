@@ -12,7 +12,7 @@ import soccer.Player;
 
 /**
  *
- * @author Administrator
+ * @author Heino
  */
 public class PlayerDatabase {
     

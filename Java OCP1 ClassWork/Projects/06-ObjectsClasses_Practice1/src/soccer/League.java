@@ -13,7 +13,7 @@ import utility.PlayerDatabase;
 
 /**
  *
- * @author Administrator
+ * @author Heino
  */
 public class League {
 
@@ -30,10 +30,14 @@ public class League {
         System.out.println(theLeague.getLeagueAnnouncement(theGames));
         for (Game currGame: theGames){
             currGame.playGame();
-            System.out.println(currGame.getDescription());
+            break;
+            /* Practice 12-1. Add a break command here */
+            
+            /* Practice 12-1. Comment out the line below */
+//            System.out.println(currGame.getDescription());
         }
         
-        theLeague.showBestTeam(theTeams);
+//        theLeague.showBestTeam(theTeams);
 
     }
 

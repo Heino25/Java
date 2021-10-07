@@ -7,11 +7,12 @@ package soccer;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import utility.GameUtils;
 
 /**
  *
- * @author Administrator
+ * @author Heino
  */
 public class Game {
     
@@ -34,7 +35,23 @@ public class Game {
     }
     
     public void playGame() {
-        playGame(6);
+        ArrayList <Goal> eventList = new ArrayList();        
+        Goal currEvent;
+        for (int i = 1; i <= 90; i++) {           
+            if (Math.random() > 0.95) {
+//                System.out.println(i);
+                currEvent = new Goal();
+                currEvent.setTheTeam(Math.random() > 0.5?homeTeam:awayTeam);
+                currEvent.setThePlayer(currEvent.getTheTeam().
+                        getPlayerArray()[(int) (Math.random()*
+                        currEvent.getTheTeam().getPlayerArray().length)]);
+                currEvent.setTheTime(i);
+                eventList.add(currEvent);
+                this.goals = new Goal[eventList.size()];
+                eventList.toArray(goals);
+            }
+        }
+        
     }
     
     public String getDescription() {
