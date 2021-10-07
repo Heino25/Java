@@ -11,7 +11,7 @@ package soccer;
  * @author Administrator
  */
 public class Player {
-    
+    private int goalsScored;
     private String playerName;
     
     public Player(String playerName) {
@@ -33,5 +33,16 @@ public class Player {
     public void setPlayerName(String playerName) {
         this.playerName = playerName;
     }
+
+    public int getGoalsScored() {
+        return goalsScored;
+    }
+
+    public void setGoalsScored(int goalsScored) {
+        this.goalsScored = goalsScored;
+    }
     
+    public void incGoalsScored(){
+        this.goalsScored++;
+   }
 }
