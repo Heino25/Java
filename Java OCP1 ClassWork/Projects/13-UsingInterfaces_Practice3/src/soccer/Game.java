@@ -69,6 +69,8 @@ public class Game {
                     awayTeamGoals++;
                     awayTeam.incGoalsTotal(1);
                 }
+                
+                /* Practice 13-3. Add the line to increment goals scored for a player */
             }
             
             returnString.append(currEvent +" after "
