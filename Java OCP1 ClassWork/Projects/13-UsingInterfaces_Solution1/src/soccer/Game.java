@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package soccer;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-//import utility.GameUtils;
+
 
 /**
  *
- * @author Heino
+ * @author Administrator
  */
 public class Game {
     

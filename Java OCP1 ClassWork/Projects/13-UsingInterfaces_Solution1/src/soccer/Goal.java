@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package soccer;
 
 /**
  *
- * @author Heino
+ * @author Administrator
  */
-/* Practice 12-2. Make this class extend GameEvent */
 public class Goal extends GameEvent {
     
         public String toString(){

@@ -9,10 +9,7 @@ package soccer;
  *
  * @author Heino
  */
-/* Practice 12-2. Make this class extend GameEvent */
-public class Goal extends GameEvent {
-    
-        public String toString(){
-        return "Goal scored";
-    }
+public class Possession extends GameEvent {
+    public String toString() {
+    return "Possession";}
 }
