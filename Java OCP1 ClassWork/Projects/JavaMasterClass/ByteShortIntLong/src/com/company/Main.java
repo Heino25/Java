@@ -30,6 +30,8 @@ public class Main {
         long myMaxLongValue = Long.MAX_VALUE;
         System.out.println("Long Minimum Value = " + myMinLongtValue);
         System.out.println("Long Maximum Value = " + myMaxLongValue);
+        long bigLongLiteralValue = 100L;
+        System.out.println(2147483648L);
     }
 
 }
