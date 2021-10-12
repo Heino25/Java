@@ -28,5 +28,28 @@ public class Main {
             default:
                 System.out.println("number is between 6 to 10");
         }
+
+
+        char charValue = 'G';
+
+        switch (charValue){
+            case 'A':
+                System.out.println("Value is A");
+                break;
+            case 'B':
+                System.out.println("Value is B");
+                break;
+            case 'C':
+                System.out.println("Value is C");
+                break;
+            case 'D':
+                System.out.println("Value is D");
+                break;
+            case 'E': case 'F': case 'G':
+                System.out.println("Value is E or F or G");
+                break;
+            default:
+                System.out.println("A,B,C,D and E was not found");
+        }
     }
 }
