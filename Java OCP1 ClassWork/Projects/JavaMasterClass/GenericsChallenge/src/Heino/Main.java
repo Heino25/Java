@@ -21,26 +21,26 @@ public class Main {
         footballLeague.add(hawthorn);
         footballLeague.add(fremantle);
 
-//        footballLeague.add(baseballTeam);
+
         footballLeague.showLeagueTable();
-
-        BaseballPlayer pat = new BaseballPlayer("Pat");
-        SoccerPlayer beckham = new SoccerPlayer("Beckham");
-        Team rawTeam = new Team("Raw Team");
-        rawTeam.addPlayer(beckham);
-        rawTeam.addPlayer(pat);
-
-        footballLeague.add(rawTeam);
-
-        League<Team> rawLeague = new League<>("Raw");
-        rawLeague.add(adelaideCrows);
-        rawLeague.add(baseballTeam);
-        rawLeague.add(rawTeam);
-
-        League reallyRaw = new League("Really raw");
-        reallyRaw.add(adelaideCrows);
-        reallyRaw.add(baseballTeam);
-        reallyRaw.add(rawTeam);
+//
+//        BaseballPlayer pat = new BaseballPlayer("Pat");
+//        SoccerPlayer beckham = new SoccerPlayer("Beckham");
+//        Team rawTeam = new Team("Raw Team");
+//        rawTeam.addPlayer(beckham);
+//        rawTeam.addPlayer(pat);
+//
+//        footballLeague.add(rawTeam);
+//
+//        League<Team> rawLeague = new League<>("Raw");
+//        rawLeague.add(adelaideCrows);
+//        rawLeague.add(baseballTeam);
+//        rawLeague.add(rawTeam);
+//
+//        League reallyRaw = new League("Really raw");
+//        reallyRaw.add(adelaideCrows);
+//        reallyRaw.add(baseballTeam);
+//        reallyRaw.add(rawTeam);
 
 
 
