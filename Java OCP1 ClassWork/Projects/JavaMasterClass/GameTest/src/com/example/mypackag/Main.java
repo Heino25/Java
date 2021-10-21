@@ -1,4 +1,8 @@
-package Heino;
+package com.example.mypackag;
+
+import Heino.ISaveable;
+import Heino.Monster;
+import Heino.Player;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -63,29 +67,5 @@ public class Main {
         ArrayList<String> values = readValues();
         objectToLoad.read(values);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
