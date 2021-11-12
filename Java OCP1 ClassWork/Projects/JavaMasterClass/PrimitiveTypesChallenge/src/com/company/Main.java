@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	    byte byteValue = 10;
+        byte byteValue = 10;
         short shortValue = 20;
         int intValue = 50;
 

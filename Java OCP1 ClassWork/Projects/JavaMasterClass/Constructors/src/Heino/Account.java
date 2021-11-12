@@ -7,12 +7,12 @@ public class Account {
     private String customerEmailAddress;
     private String customerPhoneNumber;
 
-    public Account(){
+    public Account() {
         this("56789", 2.50, "Default name", "Default adress", "default pone");
         System.out.println("Empty constructor called");
     }
 
-    public Account(String number, double balance, String customerName, String customerEmailAddress, String customerPhoneNumber){
+    public Account(String number, double balance, String customerName, String customerEmailAddress, String customerPhoneNumber) {
         System.out.println("Account constructor with parameters called.");
         this.number = number;
         this.balance = balance;
@@ -26,13 +26,13 @@ public class Account {
 
     }
 
-    public void deposit(double depositAmount){
+    public void deposit(double depositAmount) {
         this.balance += depositAmount;
         System.out.println("Deposit of " + depositAmount + " made. New balance is " + this.balance);
     }
 
-    public void withdrawal(double withdrawalAmount){
-        if(this.balance - withdrawalAmount <0){
+    public void withdrawal(double withdrawalAmount) {
+        if (this.balance - withdrawalAmount < 0) {
             System.out.println("Only " + balance + " available. Withdrawal not processed");
         } else {
             balance -= withdrawalAmount;

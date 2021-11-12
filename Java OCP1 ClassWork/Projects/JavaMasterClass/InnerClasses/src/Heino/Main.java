@@ -31,10 +31,10 @@ public class Main {
 
     private static void listen() {
         boolean quit = false;
-        while(!quit) {
+        while (!quit) {
             int choice = scanner.nextInt();
             scanner.nextLine();
-            switch(choice) {
+            switch (choice) {
                 case 0:
                     quit = true;
                     break;

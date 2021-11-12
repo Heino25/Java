@@ -7,10 +7,10 @@ public class Main {
 //        myIntArray[0] = 45;
 //        myIntArray[1] = 476;
 //        myIntArray[5] = 50;
-        for(int i=0; i<myIntArray.length; i++) {
-            myIntArray[i] = i*10;
+        for (int i = 0; i < myIntArray.length; i++) {
+            myIntArray[i] = i * 10;
         }
-        for (int i=0; i<myIntArray.length; i++) {
+        for (int i = 0; i < myIntArray.length; i++) {
             System.out.println("Element " + i + ", value is " + myIntArray[i]);
         }
 

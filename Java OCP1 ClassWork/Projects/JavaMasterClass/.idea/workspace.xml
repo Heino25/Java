@@ -1,7 +1,112 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fea74787-cf91-440f-ad3c-95f1d3bb5ff2" name="Changes" comment="" />
+    <list default="true" id="1634ed26-fe2f-40e3-a099-fcc73b16f202" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClassChallenge/src/Heino/ListItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClassChallenge/src/Heino/ListItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClassChallenge/src/Heino/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClassChallenge/src/Heino/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClassChallenge/src/Heino/NodeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClassChallenge/src/Heino/NodeList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClasses/src/Heino/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClasses/src/Heino/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AbstractClasses/src/Heino/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/AbstractClasses/src/Heino/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccessModifiers/src/Accessible.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccessModifiers/src/Accessible.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AccessModifiers/src/com/heino/test/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/AccessModifiers/src/com/heino/test/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayListChallenge/src/Heino/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayListChallenge/src/Heino/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayListChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayListChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArrayListChallenge/src/Heino/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/ArrayListChallenge/src/Heino/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Arrays/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoboxing&amp;UnboxingChallenge/src/Heino/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/Autoboxing&amp;UnboxingChallenge/src/Heino/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoboxing&amp;UnboxingChallenge/src/Heino/Branch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Autoboxing&amp;UnboxingChallenge/src/Heino/Branch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Autoboxing&amp;UnboxingChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Autoboxing&amp;UnboxingChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassChallenge/src/Heino/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassChallenge/src/Heino/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClassChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ClassChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/src/Heino/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/src/Heino/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections/src/com/heino/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/heino/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections/src/com/heino/test/MapProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/heino/test/MapProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Collections/src/com/heino/test/Theatre.java" beforeDir="false" afterPath="$PROJECT_DIR$/Collections/src/com/heino/test/Theatre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Bed.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Bed.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Ceiling.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Ceiling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Lamp.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Lamp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Motherboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Motherboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/PC.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/PC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Resolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Resolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Composuition/src/Heino/Wall.java" beforeDir="false" afterPath="$PROJECT_DIR$/Composuition/src/Heino/Wall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructors/src/Heino/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/Constructors/src/Heino/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Constructors/src/Heino/VipCustomer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Constructors/src/Heino/VipCustomer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DayOfTheWeekChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DayOfTheWeekChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DigitsuChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/DigitsuChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulation/src/Heino/EnhancedPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulation/src/Heino/EnhancedPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Encapsulation/src/Heino/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Encapsulation/src/Heino/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EncapsulationChallenge/src/Heino/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/EncapsulationChallenge/src/Heino/Printer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ForLoop/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ForLoop/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameTest/src/com/example/mypackag/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GameTest/src/com/example/mypackag/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generics/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Generics/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsChallenge/src/Heino/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsChallenge/src/Heino/League.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsChallenge/src/Heino/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsChallenge/src/Heino/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsPart2/src/Heino/BaseballPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsPart2/src/Heino/BaseballPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsPart2/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsPart2/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GenericsPart2/src/Heino/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/GenericsPart2/src/Heino/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthyBurger/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HealthyBurger/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IfKeywordAndCodeBlocks/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/IfKeywordAndCodeBlocks/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/Heino/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/Heino/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/Heino/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/Heino/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inheritance/src/Heino/Fish.java" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/src/Heino/Fish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InnerClasses/src/Heino/Gearbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/InnerClasses/src/Heino/Gearbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InnerClasses/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/InnerClasses/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/src/Heino/DeskPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/src/Heino/DeskPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/src/Heino/Gearbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/src/Heino/Gearbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interfaces/src/Heino/ITelephone.java" beforeDir="false" afterPath="$PROJECT_DIR$/Interfaces/src/Heino/ITelephone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaPrograms/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaPrograms/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeywordsAndExpressions/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/KeywordsAndExpressions/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/Heino/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Heino/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/Heino/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Heino/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListChallenge/src/Heino/Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListChallenge/src/Heino/Album.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedListChallenge/src/Heino/Song.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedListChallenge/src/Heino/Song.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListAndArrayList/src/Heino/GroceryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListAndArrayList/src/Heino/GroceryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListAndArrayList/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ListAndArrayList/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MethodOverloading/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MethodOverloading/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Methods/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Methods/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinAndMaxChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MinAndMaxChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MinimumElementChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/MinimumElementChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NamingConventions/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/NamingConventions/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPTest/src/Heino/Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPTest/src/Heino/Hamburger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPTest/src/Heino/HealthyBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPTest/src/Heino/HealthyBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPTest/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/OOPTest/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PackageChallenge/src/mylibrary/Series.java" beforeDir="false" afterPath="$PROJECT_DIR$/PackageChallenge/src/mylibrary/Series.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/src/Heino/ISaveable.java" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/src/Heino/ISaveable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/src/Heino/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/src/Heino/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/src/Heino/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/src/Heino/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ParsingValueFromString/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ParsingValueFromString/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Player/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polymorphism Challenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism Challenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Polymorphism2/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Polymorphism2/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PositveNegativeZero/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PositveNegativeZero/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PrimitiveTypesChallenge/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/PrimitiveTypesChallenge/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReadingUserinputs/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReadingUserinputs/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReferencesVsValueTypes/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReferencesVsValueTypes/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ReverseArrayChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReverseArrayChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scope/src/com/heino/test/ScopeCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scope/src/com/heino/test/ScopeCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ScopeChallenge/src/com/heino/test/X.java" beforeDir="false" afterPath="$PROJECT_DIR$/ScopeChallenge/src/com/heino/test/X.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SecondsAndMinutesChallenge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SecondsAndMinutesChallenge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeriesTest/src/com/heino/test/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SeriesTest/src/com/heino/test/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeedConverter/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpeedConverter/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpeedConverter/src/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpeedConverter/src/SpeedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sum3And5Challenhge/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sum3And5Challenhge/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Switch/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Switch/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/While/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/While/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WinDemo/src/Heino/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/WinDemo/src/Heino/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WinDemo/src/Heino/MyWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/WinDemo/src/Heino/MyWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finalStatement/src/com/heino/test/Password.java" beforeDir="false" afterPath="$PROJECT_DIR$/finalStatement/src/com/heino/test/Password.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,99 +115,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="1zDKGYPNtd434Lw4a6LVFPDyC3d" />
+  <component name="ProjectId" id="20oNp1VPKzd53Gdc82Vq5R0AweC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="untitled104" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="company" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
-      <module name="JavaMasterClass" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fea74787-cf91-440f-ad3c-95f1d3bb5ff2" name="Changes" comment="" />
-      <created>1633677122580</created>
+      <changelist id="1634ed26-fe2f-40e3-a099-fcc73b16f202" name="Changes" comment="" />
+      <created>1636707161323</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1633677122580</updated>
+      <updated>1636707161323</updated>
     </task>
     <servers />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ClassChallenge/src/Heino/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

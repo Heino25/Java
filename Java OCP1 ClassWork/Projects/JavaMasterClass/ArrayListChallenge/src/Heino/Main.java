@@ -1,5 +1,7 @@
 package Heino;
+
 import java.util.Scanner;
+
 public class Main {
     private static Scanner scanner = new Scanner(System.in);
     private static MobilePhone mobilePhone = new MobilePhone("0039 330 4404");
@@ -9,7 +11,7 @@ public class Main {
         boolean quit = false;
         startPhone();
         printActions();
-        while(!quit) {
+        while (!quit) {
             System.out.println("\nEnter action: (6 to show available actions)");
             int action = scanner.nextInt();
             scanner.nextLine();
@@ -55,8 +57,8 @@ public class Main {
         System.out.println("Enter phone number: ");
         String phone = scanner.nextLine();
         Contact newContact = Contact.createContact(name, phone);
-        if(mobilePhone.addNewContact(newContact)) {
-            System.out.println("New contact added: name = " + name + ", phone = "+ phone);
+        if (mobilePhone.addNewContact(newContact)) {
+            System.out.println("New contact added: name = " + name + ", phone = " + phone);
         } else {
             System.out.println("Cannot add, " + name + " already on file");
         }
@@ -66,7 +68,7 @@ public class Main {
         System.out.println("Enter existing contact name: ");
         String name = scanner.nextLine();
         Contact existingContactRecord = mobilePhone.queryContact(name);
-        if(existingContactRecord == null) {
+        if (existingContactRecord == null) {
             System.out.println("Contact not found.");
             return;
         }
@@ -76,7 +78,7 @@ public class Main {
         System.out.print("Enter new contact phone number: ");
         String newNumber = scanner.nextLine();
         Contact newContact = Contact.createContact(newName, newNumber);
-        if(mobilePhone.updateContact(existingContactRecord, newContact)) {
+        if (mobilePhone.updateContact(existingContactRecord, newContact)) {
             System.out.println("Successfully updated record");
         } else {
             System.out.println("Error updating record.");
@@ -92,7 +94,7 @@ public class Main {
             return;
         }
 
-        if(mobilePhone.removeContact(existingContactRecord)) {
+        if (mobilePhone.removeContact(existingContactRecord)) {
             System.out.println("Successfully deleted");
         } else {
             System.out.println("Error deleting contact");
@@ -126,31 +128,6 @@ public class Main {
                 "6  - to print a list of available actions.");
         System.out.println("Choose your action: ");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

@@ -1,6 +1,6 @@
 package Heino;
 
-public class DeskPhone implements ITelephone{
+public class DeskPhone implements ITelephone {
     private int myNumber;
     private boolean isRinging;
 

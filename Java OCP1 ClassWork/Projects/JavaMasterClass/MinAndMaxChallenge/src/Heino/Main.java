@@ -11,11 +11,11 @@ public class Main {
         int max = Integer.MIN_VALUE;
 //        boolean first = true;
 
-        while(true) {
+        while (true) {
             System.out.println("Enter number: ");
             boolean isAnInt = scanner.hasNextInt();
 
-            if(isAnInt) {
+            if (isAnInt) {
 
                 int number = scanner.nextInt();
 
@@ -25,11 +25,11 @@ public class Main {
 //                    max = number;
 //                }
 
-                if(number > max) {
+                if (number > max) {
                     max = number;
                 }
 
-                if(number < min) {
+                if (number < min) {
                     min = number;
                 }
 

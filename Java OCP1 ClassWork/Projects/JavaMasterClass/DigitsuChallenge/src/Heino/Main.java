@@ -9,14 +9,14 @@ public class Main {
         System.out.println("The sum of digits in number 32123 is " + sumDigits(32123));
     }
 
-    private static int sumDigits(int number){
+    private static int sumDigits(int number) {
 
-        if(number < 10) {
+        if (number < 10) {
             return -1;
         }
         int sum = 0;
 
-        while (number >0) {
+        while (number > 0) {
             // extract the lest-significant digit
             int digit = number % 10;
             sum += digit;

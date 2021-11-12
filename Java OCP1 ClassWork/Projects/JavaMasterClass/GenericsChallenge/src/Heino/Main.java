@@ -7,8 +7,8 @@ public class Main {
         League<Team<FootballPlayer>> footballLeague = new League<>("AFL");
         Team<FootballPlayer> adelaideCrows = new Team<>("Adelaide Crows");
         Team<FootballPlayer> melbourne = new Team<>("Melbourne");
-        Team<FootballPlayer> hawthorn= new Team<>("Hawthorn");
-        Team<FootballPlayer> fremantle= new Team<>("Fremantle");
+        Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
+        Team<FootballPlayer> fremantle = new Team<>("Fremantle");
         Team<BaseballPlayer> baseballTeam = new Team<>("Chicago Cubs");
 
         melbourne.matchResult(adelaideCrows, 1, 0);
@@ -42,25 +42,6 @@ public class Main {
 //        reallyRaw.add(adelaideCrows);
 //        reallyRaw.add(baseballTeam);
 //        reallyRaw.add(rawTeam);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

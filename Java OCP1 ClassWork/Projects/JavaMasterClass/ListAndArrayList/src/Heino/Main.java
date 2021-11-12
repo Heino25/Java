@@ -10,12 +10,12 @@ public class Main {
         boolean quit = false;
         int choice = 0;
         printInstructions();
-        while(!quit) {
-            System.out.println("Enter your choice: " );
+        while (!quit) {
+            System.out.println("Enter your choice: ");
             choice = scanner.nextInt();
             scanner.nextLine();
 
-            switch(choice) {
+            switch (choice) {
                 case 0:
                     printInstructions();
                     break;
@@ -63,47 +63,26 @@ public class Main {
         scanner.nextLine();
         System.out.print("Enter replacement item: ");
         String newItem = scanner.nextLine();
-        groceryList.modifyGroceryItem(itemNo-1, newItem);
+        groceryList.modifyGroceryItem(itemNo - 1, newItem);
     }
 
     public static void removeItem() {
         System.out.print("Enter item number: ");
         int itemNo = scanner.nextInt();
         scanner.nextLine();
-        groceryList.removeGroceryItem(itemNo-1);
+        groceryList.removeGroceryItem(itemNo - 1);
 
     }
 
     public static void searchForItem() {
         System.out.print("Item to search for: ");
         String searchItem = scanner.nextLine();
-        if(groceryList.findItem(searchItem) != null) {
+        if (groceryList.findItem(searchItem) != null) {
             System.out.println("Found " + searchItem + " in  our grocery list");
         } else {
             System.out.println(searchItem + " is not in the shopping list");
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

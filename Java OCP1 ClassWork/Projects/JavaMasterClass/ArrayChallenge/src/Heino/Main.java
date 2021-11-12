@@ -36,7 +36,7 @@ public class Main {
         int temp;
         while (flag) {
             flag = false;
-            for (int i = 0; i < sortedArray.length-1; i++) {
+            for (int i = 0; i < sortedArray.length - 1; i++) {
                 if (sortedArray[i] < sortedArray[i + 1]) {
                     temp = sortedArray[i];
                     sortedArray[i] = sortedArray[i + 1];

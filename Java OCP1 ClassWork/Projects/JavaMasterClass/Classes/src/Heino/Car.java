@@ -11,11 +11,11 @@ public class Car {
 
     public void setModel(String model) {
         String validModel = model.toLowerCase();
-                if(validModel.equals("carrera") || validModel.equals("commodore")){
-                    this.model = model;
-                }else {
-                    this.model = "Unknown";
-                }
+        if (validModel.equals("carrera") || validModel.equals("commodore")) {
+            this.model = model;
+        } else {
+            this.model = "Unknown";
+        }
 
     }
 

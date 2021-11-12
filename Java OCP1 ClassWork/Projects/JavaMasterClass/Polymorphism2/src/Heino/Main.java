@@ -7,7 +7,7 @@ class Movie {
         this.name = name;
     }
 
-    public String plot(){
+    public String plot() {
         return "No plot here";
     }
 
@@ -16,19 +16,19 @@ class Movie {
     }
 }
 
-class Jaws extends  Movie {
-    public Jaws(){
+class Jaws extends Movie {
+    public Jaws() {
         super("Jaws");
     }
 
-    public String plot(){
+    public String plot() {
         return "A shark eats lots of people";
     }
 }
 
-class IndependenceDay extends Movie{
+class IndependenceDay extends Movie {
 
-    public IndependenceDay(){
+    public IndependenceDay() {
         super("IndependenceDay");
     }
 
@@ -38,9 +38,9 @@ class IndependenceDay extends Movie{
     }
 }
 
-class MazeRunner extends Movie{
+class MazeRunner extends Movie {
 
-    public MazeRunner(){
+    public MazeRunner() {
         super("Maze Runner");
     }
 
@@ -50,8 +50,8 @@ class MazeRunner extends Movie{
     }
 }
 
-class StarWars extends Movie{
-    public StarWars(){
+class StarWars extends Movie {
+    public StarWars() {
         super("StarWars");
     }
 
@@ -61,8 +61,8 @@ class StarWars extends Movie{
     }
 }
 
-class Forgettable extends Movie{
-    public Forgettable(){
+class Forgettable extends Movie {
+    public Forgettable() {
         super("Forgettable");
     }
     //No plot method
@@ -71,7 +71,7 @@ class Forgettable extends Movie{
 public class Main {
 
     public static void main(String[] args) {
-	    for (int i=1; i<11; i++){
+        for (int i = 1; i < 11; i++) {
             Movie movie = randomMovie();
             System.out.println("Movie #" + i +
                     " : " + movie.getName() + "\n" +
@@ -79,10 +79,10 @@ public class Main {
         }
     }
 
-    public static Movie randomMovie(){
-        int randomNumber = (int) (Math.random() * 5) +1;
+    public static Movie randomMovie() {
+        int randomNumber = (int) (Math.random() * 5) + 1;
         System.out.println("Random number generated was: " + randomNumber);
-        switch (randomNumber){
+        switch (randomNumber) {
             case 1:
                 return new Jaws();
             case 2:

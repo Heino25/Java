@@ -11,7 +11,7 @@ public class Main {
 
         boolean hasNextInt = scanner.hasNextInt();
 
-        if(hasNextInt){
+        if (hasNextInt) {
             int yearOfBirth = scanner.nextInt();
             scanner.nextLine(); // handle next line character (enter key)
 
@@ -19,12 +19,12 @@ public class Main {
             String name = scanner.nextLine();
             int age = 2021 - yearOfBirth;
 
-            if(age >= 0 && age <= 100){
+            if (age >= 0 && age <= 100) {
                 System.out.println("Your name is " + name + ", and you are " + age + " year old.");
-            }else {
+            } else {
                 System.out.println("Invalid year of birth");
             }
-        }else {
+        } else {
             System.out.println("Unable to parse year of birth");
         }
 

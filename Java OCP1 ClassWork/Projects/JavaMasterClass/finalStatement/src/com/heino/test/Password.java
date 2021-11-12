@@ -1,4 +1,5 @@
 package com.heino.test;
+
 public class Password {
     private static final int key = 748576362;
     private final int encryptedPassword;
@@ -16,7 +17,7 @@ public class Password {
     }
 
     public boolean letMeIn(int password) {
-        if(encryptDecrypt(password) == this.encryptedPassword) {
+        if (encryptDecrypt(password) == this.encryptedPassword) {
             System.out.println("Welcome");
             return true;
         } else {

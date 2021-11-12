@@ -1,7 +1,6 @@
 package Heino;
 
-public abstract class Bird extends Animal implements CanFly
-{
+public abstract class Bird extends Animal implements CanFly {
     public Bird(String name) {
         super(name);
     }

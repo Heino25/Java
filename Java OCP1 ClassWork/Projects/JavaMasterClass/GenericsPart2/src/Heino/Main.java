@@ -6,23 +6,23 @@ public class Main {
         BaseballPlayer pat = new BaseballPlayer("Pat");
         SoccerPlayer beckham = new SoccerPlayer("Beckham");
 
-        Team <FootballPlayer> crows = new Team<>("Crows");
+        Team<FootballPlayer> crows = new Team<>("Crows");
         crows.addPlayer(joe);
 
         System.out.println(crows.numPlayers());
 
-        Team <BaseballPlayer> baseballTeam = new Team<>("Cubs");
+        Team<BaseballPlayer> baseballTeam = new Team<>("Cubs");
         baseballTeam.addPlayer(pat);
 
-        Team <SoccerPlayer> soccerTeam = new Team<>("Manchester United");
+        Team<SoccerPlayer> soccerTeam = new Team<>("Manchester United");
         soccerTeam.addPlayer(beckham);
 
-        Team <FootballPlayer> melbourne = new Team<>("Melbourne");
+        Team<FootballPlayer> melbourne = new Team<>("Melbourne");
         FootballPlayer banks = new FootballPlayer("Gordon");
         melbourne.addPlayer(banks);
 
-        Team <FootballPlayer> hawthorn = new Team<>("Hawthorn");
-        Team <FootballPlayer> fremantle = new Team<>("Fremantle");
+        Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
+        Team<FootballPlayer> fremantle = new Team<>("Fremantle");
 
         hawthorn.matchResult(fremantle, 1, 0);
         hawthorn.matchResult(crows, 3, 8);

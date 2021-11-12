@@ -1,4 +1,5 @@
 package Heino;
+
 public class Customer {
     private String name;
     private double balance;

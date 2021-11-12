@@ -7,8 +7,8 @@ public class Main {
         System.out.println("New score " + newScore);
         calculateScore(75);
         calculateScore();
-        double centimeters = calcFeetAndInchesToCentimeters(6,3);
-        if(centimeters <0.0) {
+        double centimeters = calcFeetAndInchesToCentimeters(6, 3);
+        if (centimeters < 0.0) {
             System.out.println("Invalid parameters");
         }
         calcFeetAndInchesToCentimeters(157);
@@ -33,7 +33,7 @@ public class Main {
 
     public static double calcFeetAndInchesToCentimeters(double feet, double inches) {
 
-        if ((feet <0) || ((inches <0) || (inches >12))) {
+        if ((feet < 0) || ((inches < 0) || (inches > 12))) {
             System.out.println("Invalid feet or inches");
             return -1;
         }
@@ -55,4 +55,4 @@ public class Main {
         return calcFeetAndInchesToCentimeters(feet, remainingInches);
     }
 
-    }
+}

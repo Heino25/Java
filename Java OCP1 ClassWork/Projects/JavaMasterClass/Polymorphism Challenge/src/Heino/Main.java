@@ -1,5 +1,6 @@
 package Heino;
-class Car{
+
+class Car {
     private boolean engine;
     private int cylinders;
     private String name;
@@ -20,23 +21,23 @@ class Car{
         return name;
     }
 
-    public String startEngine(){
+    public String startEngine() {
         return "Car -> startEngine";
     }
 
-    public String accelerate(){
+    public String accelerate() {
         return "Car -> accelerate()";
     }
 
-    public String brake(){
+    public String brake() {
         return "Car -> brake()";
     }
 
 }
 
-class Mitsubishi extends Car{
+class Mitsubishi extends Car {
 
-    public Mitsubishi(int cylinders, String name){
+    public Mitsubishi(int cylinders, String name) {
         super(cylinders, name);
     }
 
@@ -56,9 +57,9 @@ class Mitsubishi extends Car{
     }
 }
 
-class Holden extends Car{
+class Holden extends Car {
 
-    public Holden(int cylinders, String name){
+    public Holden(int cylinders, String name) {
         super(cylinders, name);
     }
 
@@ -78,9 +79,9 @@ class Holden extends Car{
     }
 }
 
-class Ford extends Car{
+class Ford extends Car {
 
-    public Ford(int cylinders, String name){
+    public Ford(int cylinders, String name) {
         super(cylinders, name);
     }
 
@@ -103,7 +104,7 @@ class Ford extends Car{
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
 
         Car car = new Car(8, "Base car");
         System.out.println(car.startEngine());

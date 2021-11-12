@@ -12,7 +12,7 @@ public class League<T extends Team> {
     }
 
     public boolean add(T team) {
-        if(league.contains(team)) {
+        if (league.contains(team)) {
             return false;
         }
         league.add(team);
@@ -21,7 +21,7 @@ public class League<T extends Team> {
 
     public void showLeagueTable() {
         Collections.sort(league);
-        for(T t : league) {
+        for (T t : league) {
             System.out.println(t.getName() + ": " + t.ranking());
         }
     }

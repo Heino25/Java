@@ -12,11 +12,11 @@ public class Main {
 //            System.out.println("Loop " + i + " hello!");
 //        }
 
-        for(int i=2; i<9; i++){
+        for (int i = 2; i < 9; i++) {
             System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
         }
 
-        for(int i=8; i>=2; i--){
+        for (int i = 8; i >= 2; i--) {
             System.out.println("10,000 at " + i + "% interest = " + calculateInterest(10000.0, i));
         }
     }
@@ -48,7 +48,7 @@ public class Main {
 //        return true;
 //    }
 
-    public  static double calculateInterest(double amount, double interestRate){
-        return (amount*(interestRate/100));
+    public static double calculateInterest(double amount, double interestRate) {
+        return (amount * (interestRate / 100));
     }
 }

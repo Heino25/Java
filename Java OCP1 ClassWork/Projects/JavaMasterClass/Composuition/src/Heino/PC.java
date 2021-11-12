@@ -12,13 +12,14 @@ public class PC {
     }
 
     public void powerUp() {
-        theCase.pressPowerButton();;
+        theCase.pressPowerButton();
+        ;
         drawLogo();
     }
 
-    private  void drawLogo(){
+    private void drawLogo() {
         //fancyGraphics
-        monitor.drawPixelAt(1200,50,"yellow");
+        monitor.drawPixelAt(1200, 50, "yellow");
     }
 
 

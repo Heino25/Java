@@ -1,4 +1,5 @@
 package Heino;
+
 import java.util.ArrayList;
 
 /**
@@ -14,7 +15,7 @@ public class Bank {
     }
 
     public boolean addBranch(String branchName) {
-        if(findBranch(branchName) == null) {
+        if (findBranch(branchName) == null) {
             this.branches.add(new Branch(branchName));
             return true;
         }
@@ -24,7 +25,7 @@ public class Bank {
 
     public boolean addCustomer(String branchName, String customerName, double initialAmount) {
         Branch branch = findBranch(branchName);
-        if(branch != null) {
+        if (branch != null) {
             return branch.newCustomer(customerName, initialAmount);
         }
 
@@ -33,7 +34,7 @@ public class Bank {
 
     public boolean addCustomerTransaction(String branchName, String customerName, double amount) {
         Branch branch = findBranch(branchName);
-        if(branch != null) {
+        if (branch != null) {
             return branch.addCustomerTransaction(customerName, amount);
         }
 
@@ -41,9 +42,9 @@ public class Bank {
     }
 
     private Branch findBranch(String branchName) {
-        for(int i=0; i<this.branches.size(); i++) {
+        for (int i = 0; i < this.branches.size(); i++) {
             Branch checkedBranch = this.branches.get(i);
-            if(checkedBranch.getName().equals(branchName)) {
+            if (checkedBranch.getName().equals(branchName)) {
                 return checkedBranch;
             }
         }
@@ -53,18 +54,18 @@ public class Bank {
 
     public boolean listCustomers(String branchName, boolean showTransactions) {
         Branch branch = findBranch(branchName);
-        if(branch != null) {
+        if (branch != null) {
             System.out.println("Customer details for branch " + branch.getName());
 
             ArrayList<Customer> branchCustomers = branch.getCustomers();
-            for(int i=0; i<branchCustomers.size(); i++) {
+            for (int i = 0; i < branchCustomers.size(); i++) {
                 Customer branchCustomer = branchCustomers.get(i);
-                System.out.println("Customer: " + branchCustomer.getName() + "[" + (i+1) + "]");
-                if(showTransactions) {
+                System.out.println("Customer: " + branchCustomer.getName() + "[" + (i + 1) + "]");
+                if (showTransactions) {
                     System.out.println("Transactions");
                     ArrayList<Double> transactions = branchCustomer.getTransactions();
-                    for(int j=0; j<transactions.size(); j++) {
-                        System.out.println("[" + (j+1) + "]  Amount "  + transactions.get(j));
+                    for (int j = 0; j < transactions.size(); j++) {
+                        System.out.println("[" + (j + 1) + "]  Amount " + transactions.get(j));
                     }
                 }
             }
@@ -73,33 +74,6 @@ public class Bank {
             return false;
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }

@@ -13,15 +13,15 @@ public class Fish extends Animal {
         this.fins = fins;
     }
 
-    private void rest(){
+    private void rest() {
 
     }
 
-    private void moveMuscles(){
+    private void moveMuscles() {
 
     }
 
-    private void moveBackFin(){
+    private void moveBackFin() {
 
     }
 

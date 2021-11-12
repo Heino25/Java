@@ -6,22 +6,24 @@ public class Main {
         int value = 3;
         if (value == 1) {
             System.out.println("Value was 1");
-        }else if(value == 2) {
+        } else if (value == 2) {
             System.out.println("Value was 2");
-        }else {
+        } else {
             System.out.println("Was not 1 or 2");
         }
 
         int switchValue = 3;
 
-        switch (switchValue){
+        switch (switchValue) {
             case 1:
                 System.out.println("Value was 1");
                 break;
             case 2:
                 System.out.println("Value was 2");
                 break;
-            case 3: case 4: case 5:
+            case 3:
+            case 4:
+            case 5:
                 System.out.println("was a 3, or a 4, or a 5");
                 System.out.println("Actually it was a " + switchValue);
                 break;
@@ -32,7 +34,7 @@ public class Main {
 
         char charValue = 'G';
 
-        switch (charValue){
+        switch (charValue) {
             case 'A':
                 System.out.println("Value is A");
                 break;
@@ -45,7 +47,9 @@ public class Main {
             case 'D':
                 System.out.println("Value is D");
                 break;
-            case 'E': case 'F': case 'G':
+            case 'E':
+            case 'F':
+            case 'G':
                 System.out.println("Value is E or F or G");
                 break;
             default:

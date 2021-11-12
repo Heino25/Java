@@ -2,7 +2,7 @@ package Heino;
 
 public class Lamp {
     private String style;
-    private  boolean Battery;
+    private boolean Battery;
     private int globRating;
 
 
@@ -13,7 +13,7 @@ public class Lamp {
     }
 
 
-    public void turnOn(){
+    public void turnOn() {
         System.out.println("Lamp -> Turn on");
     }
 

@@ -14,7 +14,7 @@ public class ScopeCheck {
 
     public void timesTwo() {
         int varTwo = 2;
-        for (int i=0; i<10; i++) {
+        for (int i = 0; i < 10; i++) {
             System.out.println(i + " times two is " + i * varTwo);
         }
     }
@@ -33,7 +33,7 @@ public class ScopeCheck {
 
         public void timesTwo() {
             System.out.println("varOne is still available here " + varOne);
-            for (int i=0; i<10; i++) {
+            for (int i = 0; i < 10; i++) {
                 System.out.println(i + " times two is " + i * varThree);
             }
         }

@@ -13,7 +13,7 @@ public class SpeedConverter {
     public static void ptintConverstion(double kilometersPerHour) {
         if (kilometersPerHour < 0) {
             System.out.println("Invalid Value");
-        } else{
+        } else {
             long milesPerHour = toMilesPerHour(kilometersPerHour);
             System.out.println(kilometersPerHour +
                     " km/h= " + milesPerHour +

@@ -47,16 +47,14 @@ public class Main {
         int myInt = myIntValue.intValue(); // myIntValue.intValue();
 
         ArrayList<Double> myDoubleValues = new ArrayList<Double>();
-        for(double dbl=0.0; dbl<=10.0; dbl += 0.5) {
+        for (double dbl = 0.0; dbl <= 10.0; dbl += 0.5) {
             myDoubleValues.add(dbl);
         }
 
-        for(int i=0; i<myDoubleValues.size(); i++) {
+        for (int i = 0; i < myDoubleValues.size(); i++) {
             double value = myDoubleValues.get(i);
             System.out.println(i + "  --> " + value);
         }
-
-
 
 
     }

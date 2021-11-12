@@ -6,20 +6,21 @@ import java.awt.event.WindowEvent;
 
 
 public class MyWindow extends Frame {
-    public MyWindow(String title){
+    public MyWindow(String title) {
         super(title);
-        setSize(500,140);
-        addWindowListener(new WindowAdapter(){
+        setSize(500, 140);
+        addWindowListener(new WindowAdapter() {
             @Override
-            public void windowClosed(WindowEvent e){
+            public void windowClosed(WindowEvent e) {
                 System.exit(0);
             }
         });
     }
+
     @Override
-    public void paint(Graphics g){
+    public void paint(Graphics g) {
         super.paint(g);
-        Font sansSerifLarge = new Font("SansSerif", Font.BOLD,18);
+        Font sansSerifLarge = new Font("SansSerif", Font.BOLD, 18);
         Font SansSerifSmall = new Font("SansSerif,", Font.BOLD, 12);
         g.setFont(sansSerifLarge);
         g.drawString("The Complete Java Developer Course", 60, 60);

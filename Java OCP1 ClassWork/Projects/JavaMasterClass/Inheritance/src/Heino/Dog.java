@@ -1,6 +1,6 @@
 package Heino;
 
-public class Dog extends Animal{
+public class Dog extends Animal {
 
     private int eyes;
     private int legs;
@@ -19,7 +19,7 @@ public class Dog extends Animal{
 
     }
 
-    private void chew(){
+    private void chew() {
         System.out.println("Dog.chew() called");
     }
 
@@ -29,16 +29,18 @@ public class Dog extends Animal{
         chew();
         super.eat();
     }
-    public void walk(){
+
+    public void walk() {
         System.out.println("Dog.walk() called");
         move(5);
     }
 
-    public void run(){
+    public void run() {
         System.out.println("Dog.run() called");
         move(10);
     }
-    private void moveLegs(int speed){
+
+    private void moveLegs(int speed) {
         System.out.println("Dog.moveLegs() called");
     }
 

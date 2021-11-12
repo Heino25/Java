@@ -6,7 +6,7 @@ public class VipCustomer {
     private String emailAddress;
 
     public VipCustomer() {
-        this("default" ,1000.00, "defaultemail");
+        this("default", 1000.00, "defaultemail");
 
 
     }
